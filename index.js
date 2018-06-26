@@ -5,7 +5,7 @@ module.exports = function(sails) {
 	const command = require('./lib/alsamixer.command.js')
 	const exec = require('./lib/exec.js')
 	const init = require('./lib/init.js')
-	const setup = require('./setup.js')
+	const setup = require('./lib/setup.js')
 
 	gladys.on('ready', function(){
         init();
